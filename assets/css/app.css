@@ -7737,7 +7737,7 @@ img.swipeimage {
   object-fit: cover;
   z-index: 9;
   opacity: 0;
-  visibily: hidden;
+  visibility: hidden;
   pointer-events: none;
   border-radius: 7px;
   border: 5px solid #fff;
@@ -9232,6 +9232,10 @@ a.aximo-connect-login img {
 .aximo-story-content h3 {
   margin-top: 20px;
   margin-bottom: 15px;
+  color: var(--white-smoke);
+}
+.aximo-story-content p {
+  color: var(--white-smoke);
 }
 @media (max-width: 991px) {
   .aximo-story-content h3 {
