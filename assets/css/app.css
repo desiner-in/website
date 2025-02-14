@@ -2790,6 +2790,7 @@ textarea::placeholder { /* Most modern browsers support this now. */
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--white-smoke);
 }
 #aximo-submit-btn:hover {
   box-shadow: none;
@@ -4676,6 +4677,7 @@ span.aximo-hero-shape-title2 {
 }
 .aximo-team-data p {
   font-size: 21px;
+  color: var(--white-smoke);
 }
 
 .team-social {
@@ -5754,6 +5756,10 @@ img.aximo-video-circle {
   transition: all 0.4s;
   border: 2px solid var(--heading-color);
   background-color: var(--accent-bg);
+  color: var(--white-smoke);
+}
+.aximo-testimonial-wrap h3 {
+  color: var(--white-smoke);
 }
 .aximo-testimonial-wrap:hover {
   box-shadow: 4px 4px 0 0 var(--heading-color);

@@ -876,7 +876,9 @@
 .reveal-header .dark-version-logo {
   display: block !important;
 }
-
+.light-version-logo {
+  width: 100%;
+}
 .reveal-header .light-version-logo {
   display: none !important;
 }
