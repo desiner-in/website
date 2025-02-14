@@ -2076,6 +2076,10 @@ header.aximo-header-section.aximo-header7.sticky-menu {
   border-top: 1px solid rgba(11, 16, 64, 0.1);
 }
 
+.aximo-footer-logo-img {
+  max-width: 20%;
+}
+
 @media (max-width: 991px) {
   .aximo-footer-logo {
     text-align: center;
