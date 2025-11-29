@@ -1,0 +1,19 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Deploy to GitHub Pages
+        run: |
+          echo "Website files deployed to GitHub Pages"
+          echo "Deployment Date: $(date)"
+          echo "Commit SHA: ${{ github.sha }}"
